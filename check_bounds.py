@@ -13,7 +13,6 @@ def check_bound(ip, subnets):
     return False
 
 subnet_list = []
-ufes_ip_list = []
 
 with open('subnets.txt') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
