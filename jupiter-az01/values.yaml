@@ -1,0 +1,19 @@
+deck:
+  planet:
+    name: jupiter
+    availability_zone: "01"
+  deployment:
+    realm_type: "Production"
+    vips:
+      space-station-1:
+        ip-1: 10.5.0.17
+        ip-2: 10.5.0.18
+        ip-3: 10.5.0.20
+        health-check: 10.5.0.21
+      space-station-2:
+        ip-1: 10.5.0.22
+        ip-2: 10.5.0.22
+        # anycast ips will be ignored from duplicate check
+        anycast-ip-1: 10.6.6.6
+        health-check: 10.5.0.24
+

@@ -1,0 +1,17 @@
+deck:
+  planet:
+    name: mars
+    availability_zone: "02"
+  deployment:
+    realm_type: "Production"
+    vips:
+      space-station-1:
+        ip-1: 10.5.0.1
+        ip-2: 10.5.0.2
+        ip-3: 10.5.0.3
+        health-check: 10.5.0.5
+      space-station-2:
+        ip-1: 10.5.0.6
+        ip-2: 10.5.0.7
+        health-check: 10.5.0.8
+
